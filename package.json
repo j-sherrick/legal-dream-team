@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/j-sherrick/legal-dream-team"
   },
   "keywords": [
     "chatgpt",
@@ -37,7 +37,7 @@
   "author": "Jason Sherrick",
   "license": "GPL-3.0",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/j-sherrick/legal-dream-team/issues"
   },
   "homepage": "",
   "dependencies": {
@@ -49,5 +49,8 @@
     "openai": "^4.24.1",
     "pdf-parse": "^1.1.1",
     "puppeteer": "^19.7.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.1"
   }
 }

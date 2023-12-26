@@ -1,4 +1,12 @@
+# Typical nodejs .gitingore
 node_modules
 package-lock.json
+
+# Sctratchpad is for testing and learning, so we don't want to commit it
 scratchpad
+
+# Raw data can be HUGE, so we don't want to commit it either
 data/raw/*
+
+# Don't commit the .env file, it contains secrets
+.env
