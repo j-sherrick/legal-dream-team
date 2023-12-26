@@ -2,10 +2,10 @@ import mongoose from 'mongoose';
 const { Schema } = mongoose;
 
 const ILStatuteSchema = new Schema({
-  title: String,
   chapter: String,
+  act: String,
+  title: String,
   section: String,
-  subsection: String,
   text: String,
   keywords: [String],
 });
