@@ -1,0 +1,53 @@
+{
+  "name": "legal-dream-team",
+  "version": "1.0.0",
+  "description": "AI swarm of specialized legal agents for seamless, expert legal assistance in plain conversation.",
+  "main": "app.js",
+  "type": "module",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "chatgpt",
+    "openai",
+    "llm",
+    "deep",
+    "learning",
+    "law",
+    "legal",
+    "advice",
+    "illinois",
+    "ai",
+    "swarm",
+    "research",
+    "agent",
+    "javascript",
+    "nodejs",
+    "transformers",
+    "puppeteer",
+    "chatbots"
+  ],
+  "author": "Jason Sherrick",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "chromadb": "^1.7.3",
+    "dotenv": "^16.3.1",
+    "langchain": "^0.0.212",
+    "mongodb": "^5.9.2",
+    "mongoose": "^8.0.3",
+    "openai": "^4.24.1",
+    "pdf-parse": "^1.1.1",
+    "puppeteer": "^19.7.2"
+  }
+}
