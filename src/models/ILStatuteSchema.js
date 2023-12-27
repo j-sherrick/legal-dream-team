@@ -1,23 +1,24 @@
 import mongoose from 'mongoose';
 const { Schema } = mongoose;
 
-const ActSchema = new Schema({
+
+const SectionSchema = new Schema({
   number: Number,
-  title: String,
   text: String,
+});
+
+const ActSchema = new Schema({
+  prefix: Number,
+  title: String,
+  sections: [SectionSchema],
 });
 
 const ChapterSchema = new Schema({
   number: Number,
-  title: String,
+  topic: String,
   acts: [ActSchema],
 });
 
-const ILStatuteSchema = new Schema({
-  chapter: String,
-  act: String,
-  title: String,
-  section: String,
-  text: String,
-  keywords: [String],
+const ILCSSchema = new Schema({
+  chapters: [ChapterSchema],
 });
