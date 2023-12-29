@@ -6,7 +6,7 @@ Welcome to my "Legal Dream Team" project! 🤖💼
 
 This is an OpenAI project that uses web scraping with [Puppeteer](https://pptr.dev/) to extract and save structured data from the [Illinois General Assembly website](https://www.ilga.gov/legislation/ilcs/ilcs.asp). This will in turn be used to create embeddings and saved to ChromaDB. Because who needs sleep when you can be normalizing the text of your state's entire library of public acts so you can use it to train our future overlords, amiright? 😄
 
-Next on the agenda is scraping [higher court opinions](https://www.illinoiscourts.gov/top-level-opinions/) which come in PDF format, so I guess I'll be normalizing some PDFs after that.
+Next on the agenda is scraping [higher court opinions](https://www.illinoiscourts.gov/top-level-opinions/) which come in PDF format, so I guess I'll be normalizing a whole bunch of PDFs after I get them all downloaded.
 
 ## Ask Me Anything
 
