@@ -4,9 +4,9 @@ Welcome to my "Legal Dream Team" project! 🤖💼
 
 ## About
 
-I'm currently working on an OpenAI project that aims to create the ultimate AI legal assistant. As part of this ambitious endeavor, I'm currently working on scraping the [Illinois General Assembly website](https://www.ilga.gov/legislation/ilcs/ilcs.asp) with [Puppeteer](https://pptr.dev/) to compile all the state statutes into a Mongo database. This will in turn be used to create embeddings and saved using ChromaDB. Because who needs sleep when you can be normalizing the text of your state's entire library of public acts so you can use it to train our future overlords, amiright? 😄
+This is an OpenAI project that uses web scraping with [Puppeteer](https://pptr.dev/) to extract and save structured data from the [Illinois General Assembly website](https://www.ilga.gov/legislation/ilcs/ilcs.asp). This will in turn be used to create embeddings and saved to ChromaDB. Because who needs sleep when you can be normalizing the text of your state's entire library of public acts so you can use it to train our future overlords, amiright? 😄
 
-After that I'm going to be scraping the higher court's opinions going back a few years, then appellete courts in various districts starting with the 1st (Cook County) and then 2nd, and so on. Maybe that's too much. Maybe I bit off more than I can chew. But it's the first project I've been excited enough about to keep coming back to it. So we're going to rock on.
+Next on the agenda is scraping [higher court opinions](https://www.illinoiscourts.gov/top-level-opinions/) which come in PDF format, so I guess I'll be normalizing some PDFs after that.
 
 ## Ask Me Anything
 
