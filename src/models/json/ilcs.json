@@ -1,0 +1,25 @@
+{
+    "00": {
+        "major-topic": "MAJOR TOPIC",
+        "chapters": {
+            "05": {
+                "minor-topic": "MINOR TOPIC",
+                "acts": {
+                    "05": {
+                        "title": "ACT TITLE",
+                        "text": "ACT TEXT"
+                    }
+                }
+            },
+            "10": {
+                "minor-topic": "MINOR TOPIC",
+                "acts": {
+                    "05": {
+                        "title": "ACT TITLE",
+                        "text": "ACT TEXT"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -5,10 +5,10 @@
   "main": "app.js",
   "type": "module",
   "directories": {
-    "get-ilcs": "node src/utils/scraping/ilgaScraper.js",
     "test": "tests"
   },
   "scripts": {
+    "get-ilcs": "node src/utils/scraping/ilgaScraper.js",
     "test": "test"
   },
   "repository": {
