@@ -70,7 +70,9 @@ const browser = await puppeteer.launch();
 const page = await browser.newPage();
 await page.goto('https://www.ilga.gov/legislation/ilcs/ilcs.asp');
 
-let index = await getPageIndex(page);
+let index = await getArrayOfChapters(page);
+let links = await getArrayOfLinks(page);
+console.log(links);
 
 let topics = getMajorTopics(index);
 let chapters = getChapterTopics(index);
