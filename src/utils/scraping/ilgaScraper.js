@@ -3,6 +3,10 @@ import puppeteer, { Page } from 'puppeteer';
 
 /**
  * @param { Page } page `ilga.gov/legislation/ilcs/ilcs.asp` or any subpages
+ * TODO: this function should rely on finding the element that contains the chapter index, 
+ * not the first <td> element on the page. It should find something from the compiled statutes that
+ * is less likely to change over time, such as looking for the first major topic in the 100 series, 
+ * which is 'GOVERNMENT'
  *  
  * @returns { Array } of strings representing an index of chapters or acts on the page
  */
